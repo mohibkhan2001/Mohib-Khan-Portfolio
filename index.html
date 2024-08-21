@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOHIB KHAN</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#skills-section">Skills</a></li>
+                <li><a href="#portfolio-section">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Mohib Khan</h1>
+            <span>Hey there! My name is Mohib Khan and I am a Front-End </span>
+            <span id="element"></span>
+        </div>
+        <div class="headerBtns">
+            <a href="#portfolio-section">VIEW PORTFOLIO</a>
+            <a href="/Mohib Khan resume.pdf" download>DOWNLOAD RESUME</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about-section">
+            <img src="/images/profile.jpeg" alt="Profile Picture" class="profile-img">
+            <div class="about-text">
+                <h1>About Me</h1>
+                <p>
+                    I'm Mohib Khan, a passionate Front-End Developer with a love for creating dynamic and user-friendly
+                    websites. I specialize in front-end development, but I'm always eager to learn new technologies and enhance
+                    my skills. Whether it's designing beautiful interfaces or implementing complex functionalities, I'm committed to
+                    delivering high-quality work. Let's connect and bring your ideas to life!
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills and Education Sections -->
+        <!-- Skills and Education Sections -->
+    <section class="skills-and-education">
+        <section id="education-section">
+            <h1>Education</h1>
+            <div class="education-item">
+                <h1>Hamdard University, Karachi</h1>
+                <p><strong>Undergraduate Student</strong></p>
+                <p>BSCS</p>
+                <p>Jan 2021 - Present</p>
+            </div>
+            <div class="education-item">
+                <h1>Usman College</h1>
+                <p><strong>Intermediate Education</strong></p>
+                <p>Pre Engineering</p>
+                <p>May 2020</p>
+            </div>
+            <div class="education-item">
+                <h1>Practical Schooling System</h1>
+                <p><strong>Matriculation</strong></p>
+                <p>Computer Science</p>
+                <p>Mar 2018</p>
+            </div>
+        </section>
+
+        <section id="skills-section">
+            <h1>Skills</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>SQL/MYSQL</li>
+                <li>MS EXCEL</li>
+            </ul>
+        </section>
+    </section>
+    <section id="portfolio-section">
+        <div class="row">
+            <div class="portfolio-box" id="elite-motion">
+                <img src="/images/Work Images/tem1.png" alt="The Elite Motion">
+                <div class="overlay">
+                    <h1>The Elite Motion</h1>
+                    <p>Portfolio of a company</p>
+                    <!-- <a href="https://theelitemotion.com" target="_blank" class="visit-link">Visit Site</a> -->
+                </div>
+            </div>
+            <div class="portfolio-box" id="assistify-me">
+                <img src="/images/Work Images/am1.png" alt="Assistify Me">
+                <div class="overlay">
+
+                    <h1>Assistify Me</h1>
+                    <p>Portfolio of a company</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="portfolio-box" id="netflix">
+                <img src="/images/Work Images/netflix.png" alt="Netflix">
+                <div class="overlay">
+                    <h1>Netflix Clone</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="portfolio-box" id="instagram">
+                <img src="/images/Work Images/Insta Login.png" alt="Instagram">
+                <div class="overlay">
+                    <h1>Instagram Login Page</h1>
+                </div>
+            </div>
+            <div class="portfolio-box" id="login">
+                <img src="/images/Work Images/loginPage.png" alt="Login Page">
+                <div class="overlay">
+                    <h1>Login Page Design</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <!-- contact section -->
+    <div class="contact-section" id="contact">
+        <h1 id="h1">Contact ME</h1>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <h3>Call Me</h3>
+          <p><a href="tel:03203077424">03203077424</a></p>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-whatsapp"></i>
+          <h3>WhatsApp</h3>
+          <p><a href="https://wa.me/923164736724" target="_blank">03164736724</a></p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <h3>Email Me</h3>
+          <p><a href="mailto:khanmohib2001@gmail.com">khanmohib2001@gmail.com</a></p>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <h3>LinkedIn</h3>
+          <p><a href="https://www.linkedin.com/in/mohib-khan-615368254/">mohib-khan-615368254</a></p>
+        </div>
+      </div>
+      
+    
+    
+    </main>
+
+    <!-- Element to contain animated typing -->
+    <span id="element"></span>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i></i>Designer.', 'Developer.'],
+            typeSpeed: 80,
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
